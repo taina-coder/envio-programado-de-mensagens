@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 options = Options()
-options.add_argument(r"user-data-dir=C:\Users\kimyu\AppData\Local\Google\Chrome\User Data\SEU PERFIL AQUI")
+options.add_argument(r"CAMINHO DO SEU PERFIL AQUI")
 
 # Argumentos extras para estabilidade
 options.add_argument("--no-sandbox")
