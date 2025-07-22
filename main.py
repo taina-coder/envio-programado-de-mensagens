@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 options = Options()
-options.add_argument(r"user-data-dir=C:\Users\kimyu\AppData\Local\Google\Chrome\User Data\Profile 7")
+options.add_argument(r"user-data-dir=C:\Users\kimyu\AppData\Local\Google\Chrome\User Data\SEU PERFIL AQUI")
 
 # Argumentos extras para estabilidade
 options.add_argument("--no-sandbox")
@@ -31,9 +31,8 @@ except Exception as e:
     driver.quit()
     exit()
 
-grupo = "Tecnologia (EQ)"
-mensagem = """Bom dia, time! Tudo bem? Passando pra lembrar que estamos no fim do mês, então não esqueçam de atualizar a planilha de horários com a disponibilidade de vocês! (DISPONÍVEL ATÉ 22H)
-Link da planilha: https://docs.google.com/spreadsheets/d/1miU8sje7Gj2OcuVFbtnQ7JhByp2aCD8k/edit?usp=sharing&ouid=118281469488088326445&rtpof=true&sd=true"""
+grupo = "SEU GRUPO AQUI"
+mensagem = """SUA MENSAGEM AQUI"""
 
 try:
     print("Tentando encontrar campo de busca (XPath 1)...")
